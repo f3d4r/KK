@@ -1,0 +1,126 @@
+.card {
+    width: 350px;
+    height: 407.65px;
+    border-radius: 30px; 
+    background-color: #FFFFFF;
+    position:relative;
+    padding-bottom:50px;
+}
+
+.card_image {
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    /* width: 151px;
+    height: 292px; */
+    top: 392px;
+    left: 265px;
+    gap: 0px;
+    opacity: 0px;
+    
+    /* margin-bottom: 54.1px;
+    margin-right: 65px;
+    margin-left: 65px; */
+}
+
+.card_body {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    padding-left: 21.96px;
+    padding-right: 21px;
+    padding-top: 54.45px;
+
+    position:absolute;
+    bottom:20.65px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding-left: 21.96px; */
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    right: 50px;
+    /* flex-direction: column;
+    row-gap: 30px; */
+    height: 50px;
+}
+
+.card_icon {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    
+    padding-top: 26px;
+
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #838383;    
+}
+.card_raiting {
+    padding-left: 10px;
+}
+.card_text {
+    /* padding-left: 21.96px;
+    padding-top: 54.45px; */
+    width: 144px;
+    height: 21px;
+    text-decoration: none;
+}
+.card_title { 
+    padding-bottom: 26px;
+
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    text-decoration: none;
+    color: #000;
+    
+}
+.card_price {
+    /* padding-right: 21px;
+    padding-top: 54.45px; */
+    /* width: 57px; */
+    height: 21px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFA542;        
+}
+
+/* .card_link {
+
+} */
+
+.card_link:hover {
+    opacity: 0.8;
+    background: #000;
+}
+
+/* .card_link_to_cart:hover {
+    width: 100px;
+    height: 100px;
+    background-color: #FFA542;
+    /* background-image: url("./../../img/icons/like_con.png"); 
+} */
+.card_image_raiting {
+    background-repeat: no-repeat;
+    background-size: cover;
+}

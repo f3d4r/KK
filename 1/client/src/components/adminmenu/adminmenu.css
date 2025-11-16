@@ -1,0 +1,32 @@
+/* AdminMenu.css */
+.admin-menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    /* position: fixed; */
+    opacity: 0.8;
+    z-index: 1000;
+    width: 100%;
+}
+
+.admin-menu__link {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 0;
+}
+
+.admin-menu__link:hover {
+    /* text-decoration: underline; */
+    transform: scale(1.05);
+}

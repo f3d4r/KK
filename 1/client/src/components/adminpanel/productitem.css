@@ -1,0 +1,119 @@
+.product_item {
+    width: 1110px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.product_item_position {
+    /* width: 150px; */
+    height: 300px;
+
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    /* text-align: center; */
+    /* column-gap: 100px; */
+    /* transform: scale(0.8); */
+}
+.product_item_details.view_details {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 500px;
+    /* height: 100%; */
+}
+.product_item_details.editing_details {
+    /* margin: 0  auto; */
+
+    background-color: #1C1C27;
+    /* opacity: 0.9; */
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0;
+
+    width: 700px;
+    height: 700px;
+
+    z-index: 1000;
+    text-indent: 20px;
+    transition: all 0.2s ease-in-out;
+
+    /* position: absolute;
+    left: 52%; */
+
+}
+.edit-input {
+    width: 500px;
+    height: 72px;
+
+    line-height: 72px;
+
+    background-color: #fff;
+    border-radius: 30px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    text-indent: 20px;
+    transition: all 0.2s ease-in-out;
+
+    /* color: black; */
+    
+}
+.product_item_title {
+    padding-bottom: 0;
+}
+
+.edit_buttons {
+    width: 100%;
+    height: 50px;
+
+    /* background-color: black; */
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+    line-height: 50px;
+
+    margin-top: 10px;
+}
+.edit_buttons_second {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.edit_buttons_second:focus {
+   display: none;
+}
+
+.edit_buttons_only {
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.edit_button {
+    margin: 0 auto;
+
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #1C1C27;
+    
+    color: #fff;
+}

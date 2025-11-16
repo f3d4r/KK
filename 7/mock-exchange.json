@@ -1,0 +1,24 @@
+{
+  "port": 4545,
+  "protocol": "http",
+  "stubs": [
+    {
+      "predicates": [
+        { "equals": { "method": "GET", "path": "/exchange-rate" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "USD:RUB": "1 => 81.13",
+              "EUR:RUB": "1 => 95.1",
+              "CNY:RUB": "1 => 11.4"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://koptelnya.ru",
+  "texts": {
+    "briefHeader": "Связаться с нами",
+    "servicesHeader": "Услуги",
+    "worksHeader": "Свежесделанное"
+  },
+  "brief": {
+    "task": "Хочу разработать интернет-магазин с каталогом, оплатой и личным кабинетом.",
+    "name": "Тестовый Клиент",
+    "email": "test-client@example.com",
+    "company": "ООО Тестовая Компания",
+    "phone": "9991234567"
+  },
+  "services": {
+    "ecommerceServiceName": "Разработка Интернет-магазина"
+  },
+  "projects": {
+    "italianMarketTitle": "Интернет-магазин эксклюзивной итальянской продукции из трюфеля",
+    "italianMarketHost": "italianmarket.ru"
+  }
+}

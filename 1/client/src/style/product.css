@@ -1,0 +1,256 @@
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+} */
+
+.product_position_field {
+    margin: 0 auto;
+    /* margin-left: 15px; */
+}
+.product_field {
+    /* margin: 0 auto; */
+    width: 1110px;
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 50px;
+}
+.product_title {
+    display: flex;
+    margin-top: 14px;
+    margin-bottom: 20px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    /* font-weight: 600; */
+    line-height: 24.38px;  
+    width: 326.99px;
+    height: 24px;
+    color: #838383; 
+}
+.product_img_filed {
+    margin-top: 20px;
+    height: auto;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* max-width: 700px;
+    max-height: 250px; */
+    /* width: 500px;
+    height: 500px; */
+
+    /* width: 100%; */
+    height: 100%;
+}
+
+.product_img {
+    display: flex;
+    margin: 0 auto;
+    /* width: 100%;
+    height: 100%; */
+}
+.product_img:hover {
+    /* width: 500px;
+    height: 500px; */
+    size: 50%;
+    transform: scale(1.3);
+    background-color: #FFFFFF;
+    border-radius: 30px;
+
+    margin-top: 35px;
+    opacity: 0.9;
+}
+/* .add_to_basket_button {
+    background-image: url('../img/icons/cart_icon.png');
+} */
+
+.product_info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 550px;
+    border-radius: 30px;
+}
+/* .product_price {
+    padding-top: 20px;
+    padding-left: 20px;
+} */
+.product_info_poisition{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card_full_notofication {
+    display: flex;
+    line-height: 20px;
+    align-items: center;
+    column-gap: 20px;
+}
+.add_to_basket_button {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+.add_to_basket_button:active {
+    transform: scale(1.1);
+}
+.add_to_basket_button:hover{
+    opacity: 0.8;
+    background: antiquewhite;
+    border-radius: 30px;
+}
+.notification {
+    font-family: Montserrat;
+    font-size: 15px;
+    /* font-weight: 600; */
+    line-height: 24.38px;  
+    width: 326.99px;
+    height: 24px;
+    color: #838383; 
+}
+
+.add_comment {
+    width: 300px;
+    height: 350px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+.comment_text {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    /* font-weight: 600; */
+    line-height: 24.38px;  
+    width: 326.99px;
+    height: 24px;
+    color: #838383; 
+
+    /* opacity: 0.5; */
+}
+
+.pepole_comment {
+    width: 770px;
+    background-color: #FFFFFF;
+    /* border-radius: 30px 30px 0px 0px; */
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.people_comment_block {
+    padding-top: 20px;
+    margin-left: 20px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    /* font-weight: 600; */
+    line-height: 24.38px;  
+    width: 326.99px;
+    height: 24px;
+    color: #838383; 
+
+    max-height: 250px;
+    height: 100%;
+}
+
+.comment_text_box {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 260px;
+    background-color: antiquewhite;
+    background: transparent;
+    /* border-radius: 30px; */
+    height: 250px;
+
+    resize: none;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 24.38px;  
+    color: #838383;
+}
+.comment_text_box:focus {
+    outline: none;
+}
+
+.goto_comment {
+    margin-top: 10px;
+    margin-left: 20px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    /* font-weight: 600; */
+    line-height: 24.38px;  
+    /* width: 326.99px; */
+    /* height: 24px; */
+    color: #838383;
+}
+.goto_comment:active {
+    transform: scale(1.1);
+}
+.goto_comment:hover {
+    background: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.people_comment_other {
+
+    background-color: antiquewhite;
+    opacity: 0.8;
+    width: 770px;
+    /* height: 70px; */
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    line-height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 20px;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #000;
+
+    flex-wrap: wrap;
+}
+.data_margin {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* .people_comment_other:last-child{
+    padding-bottom: 30px;
+} */
+.comment_end_effect {
+    height: 60px;
+}
+.sort_select {
+    margin-top: 20px;
+    /* text-decoration: underline; */
+    /* background-color: #838383; */
+}
+.email_box_size{
+    width: 150px;
+}
+.email_date_box {
+    display: flex;
+    column-gap: 20px;
+}
+.review_text {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

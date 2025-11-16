@@ -1,0 +1,33 @@
+body {
+    background-color: #EAEAEA;
+    min-height: 100vh;
+}
+#root {
+    min-height: 100vh;
+}
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.tittle_2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #838383;
+    ;
+    
+}

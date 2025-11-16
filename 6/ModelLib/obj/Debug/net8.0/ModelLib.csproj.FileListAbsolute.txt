@@ -1,0 +1,12 @@
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\bin\Debug\net8.0\ModelLib.deps.json
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\bin\Debug\net8.0\ModelLib.dll
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\bin\Debug\net8.0\ModelLib.pdb
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\ModelLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\ModelLib.AssemblyInfoInputs.cache
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\ModelLib.AssemblyInfo.cs
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\ModelLib.csproj.CoreCompileInputs.cache
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\ModelLib.sourcelink.json
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\ModelLib.dll
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\refint\ModelLib.dll
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\ModelLib.pdb
+C:\Users\Ваен\source\repos\RP\task03\ModelLib\obj\Debug\net8.0\ref\ModelLib.dll

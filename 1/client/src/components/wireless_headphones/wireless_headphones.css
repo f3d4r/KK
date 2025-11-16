@@ -1,0 +1,22 @@
+.wireless_headphones {
+    padding-top: 30px;
+    height: 480px;
+    width: 1110px;
+    margin: 0 auto 60.41px auto;
+    /* background-color: #000; */
+}
+
+.wireless_headphones_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    column-gap: 30px;
+    row-gap: 30px;
+    
+    flex-wrap: wrap;
+}
+
+.wireless_headphones_header {
+    padding-bottom: 20px;
+}
